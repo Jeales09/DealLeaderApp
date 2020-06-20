@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DealLeaderDBModelStoreContainer" CdmEntityContainer="DBModel">
+    <EntitySetMapping Name="Agent_Type">
+      <EntityTypeMapping TypeName="DealLeaderDBModel.Agent_Type">
+        <MappingFragment StoreEntitySet="Agent_Type">
+          <ScalarProperty Name="Agent_Type_ID" ColumnName="Agent_Type_ID" />
+          <ScalarProperty Name="Agent_Type_Name" ColumnName="Agent_Type_Name" />
+          <ScalarProperty Name="Agent_Type_Description" ColumnName="Agent_Type_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

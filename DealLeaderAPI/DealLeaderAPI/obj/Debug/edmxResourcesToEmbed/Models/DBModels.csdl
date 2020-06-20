@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DealLeaderDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Agent_Type">
+    <Key>
+      <PropertyRef Name="Agent_Type_ID" />
+    </Key>
+    <Property Name="Agent_Type_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Agent_Type_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Agent_Type_Description" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DBModel" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Agent_Type" EntityType="Self.Agent_Type" />
+  </EntityContainer>
+</Schema>

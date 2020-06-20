@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+.form-group>input{
+    font-weight: bolder;
+}
+.form-group>label{
+    font-weight: lighter;
+}
+
+button[type="submit"]{
+    background-color: #509690;
+    color: #fff;
+
+}
+.jumbotron{
+    background-color: #fff;
+    padding-top: 32px;
+}
+
+table tr:hover{
+    cursor: pointer;
+}
+
+input.ng-touched.ng-invalid{
+    border-color: #dc3545;
+}
+div.validation-error{
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+      text-align: center;
+      font-size: 12px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:wght@500&display=swap');
+
+  nav {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center ;
+      padding: 30px 10%;
+      border: 2px solid rgb(153, 152, 152);
+  }
+
+  .nav-li {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color:darkgrey;
+      text-decoration: none;
+  }
+
+  .logo {
+      cursor: pointer;
+  }
+
+  .nav_links {
+     list-style: none; 
+  }
+
+  .nav_links li {
+      display: inline-block;
+      padding: 0px 20px;
+  }
+
+  .companyname {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:darkgrey;
+    text-decoration: none;  
+  }
+
+  .cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:darkgrey;
+    text-decoration: none;  
+  }
+
+  .tr-dark {
+      background-color: #509690;
+      color: #fff;
+      padding: 100px;
+  }
